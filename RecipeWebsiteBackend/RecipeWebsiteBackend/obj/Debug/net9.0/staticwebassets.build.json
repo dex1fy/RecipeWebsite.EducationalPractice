@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rV3VbqXXD3iV0xVO7V0sU4492LBW6CD64MH2wyddkYU=",
+  "Source": "RecipeWebsiteBackend",
+  "BasePath": "_content/RecipeWebsiteBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

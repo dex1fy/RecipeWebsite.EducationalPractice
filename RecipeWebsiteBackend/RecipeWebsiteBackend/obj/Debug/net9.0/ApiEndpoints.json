@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "RecipeWebsiteBackend.Controllers.ProtectedController",
+    "Method": "Get",
+    "RelativePath": "api/Protected",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
