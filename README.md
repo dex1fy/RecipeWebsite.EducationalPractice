@@ -12,3 +12,7 @@
 | test     | добавление unit-тестов к проекту или тестовой документации           |
 | global   | глобальные изменения файлов проекта                                  |
    
+## Авторы
+- [dex1fy](https://github.com/dex1fy)
+- [mionfan1007](https://github.com/mionfan1007)
+- [theun1c](https://github.com/theun1c)
