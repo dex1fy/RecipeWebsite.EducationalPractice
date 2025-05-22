@@ -1,4 +1,5 @@
 
+using Microsoft.IdentityModel.Tokens;
 using RecipeWebsiteBackend.Models;
 using RecipeWebsiteBackend.Services;
 using System.Diagnostics;
@@ -17,6 +18,36 @@ namespace RecipeWebsiteBackend
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
+                {
+                    options.Authority = "https://bwvendrvjgleqymbzfec.supabase.co/auth/v1";
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+
+                        ValidateIssuer = true,
+                        ValidIssuer = "https://bwvendrvjgleqymbzfec.supabase.co/auth/v1",
+                        ValidateAudience = false,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true
+                    };
+                });
+
+            builder.Services.AddAuthorization();
+            
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend", policy =>
+                {
+                    policy
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                });
+            });
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -28,23 +59,11 @@ namespace RecipeWebsiteBackend
             }
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseCors("AllowFrontend");
 
             app.MapControllers();
-
-            var testModel = new TestModel
-            {
-                Title = "Test title!!!",
-            };
-
-            var supabaseService = new SupabaseService(builder.Configuration); 
-            var supabaseClient = await supabaseService.InitSupabase();
-            supabaseClient.From<TestModel>().Insert(testModel);
-            var data = await supabaseClient.From<TestModel>().Get();
-            var result = data.Model;
-            Debug.WriteLine("----------" + result.ToString());
 
             app.Run();
         }
