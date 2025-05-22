@@ -1,0 +1,40 @@
+.btn {
+    background-color: #D27D60;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: #c06a4a;
+    color: white;
+   
+}
+form {
+    color: #4A4A4A;
+    font-size: 14px;
+
+}
+
+.image1{
+
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+    color: #7A9F79 !important;
+}
+
+input, select, textarea {
+    color: #7A9F79 !important;
+}
+
+textarea:focus, input:focus {
+    color: #7A9F79 !important;
+}
+
+input::placeholder {
+    color: #7A9F79 !important;
+    font-size: 18px;
+
+}
