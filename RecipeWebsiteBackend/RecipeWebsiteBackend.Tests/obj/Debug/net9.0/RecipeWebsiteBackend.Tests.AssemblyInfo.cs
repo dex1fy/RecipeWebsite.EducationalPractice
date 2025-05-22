@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecipeWebsiteBackend.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f586a726b43379be160e0698d44c5e2844904ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d3e08c35507a3e32ac28e6078fefc8cf3acf598")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecipeWebsiteBackend.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecipeWebsiteBackend.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
