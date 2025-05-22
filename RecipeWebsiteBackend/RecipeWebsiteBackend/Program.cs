@@ -3,6 +3,8 @@ using Microsoft.IdentityModel.Tokens;
 using RecipeWebsiteBackend.Models;
 using RecipeWebsiteBackend.Services;
 using System.Diagnostics;
+using System.Security.Claims;
+using System.Text;
 
 namespace RecipeWebsiteBackend
 {
@@ -18,32 +20,37 @@ namespace RecipeWebsiteBackend
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
             builder.Services.AddSwaggerGen();
-
+            var bytes = Encoding.UTF8.GetBytes(builder.Configuration["Authentication:JwtSecret"]);
             builder.Services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
                     options.Authority = "https://bwvendrvjgleqymbzfec.supabase.co/auth/v1";
+                    options.MetadataAddress = "https://bwvendrvjgleqymbzfec.supabase.co/auth/v1/.well-known/openid-configuration";
+
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(bytes),
+                        ValidAudience = builder.Configuration["Authentication:ValidAudience"],
+                        ValidIssuer = builder.Configuration["Authentication:ValidIssuer"],
 
                         ValidateIssuer = true,
-                        ValidIssuer = "https://bwvendrvjgleqymbzfec.supabase.co/auth/v1",
                         ValidateAudience = false,
                         ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true
+                  
                     };
                 });
 
             builder.Services.AddAuthorization();
-            
+
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend", policy =>
                 {
-                    policy
-                    .AllowAnyOrigin()
-                    .AllowAnyMethod()
-                    .AllowAnyHeader();
+                    policy.WithOrigins("http://127.0.0.1:5500")
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials();
                 });
             });
 
@@ -59,9 +66,11 @@ namespace RecipeWebsiteBackend
             }
 
             app.UseHttpsRedirection();
+
+            app.UseRouting();
+            app.UseCors("AllowFrontend");
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseCors("AllowFrontend");
 
             app.MapControllers();
 
