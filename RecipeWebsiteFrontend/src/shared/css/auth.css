@@ -1,5 +1,7 @@
+/* стили страниц входа и регистрации */
+
 .btn {
-    background-color: #D27D60;
+    background-color: #d27d60;
     color: white;
 }
 
@@ -8,68 +10,67 @@
     color: white;
 }
 
-
 form {
-    color: #4A4A4A;
+    color: #4a4a4a;
     font-size: 14px;
 }
 
 .text {
-    color: #7A9F79 !important;
+    color: #7a9f79 !important;
 }
 
-input, select, textarea {
-    color: #7A9F79 !important;
+input,
+select,
+textarea {
+    color: #7a9f79 !important;
 }
 
-textarea:focus, input:focus {
-    color: #7A9F79 !important;
+textarea:focus,
+input:focus {
+    color: #7a9f79 !important;
 }
 
 input::placeholder {
-    color: #7A9F79 !important;
+    color: #7a9f79 !important;
     font-size: 18px;
-
 }
 
 .left-area {
-    border-top-left-radius: 15px; /* Левый верхний */
+    border-top-left-radius: 15px; 
     border-bottom-left-radius: 15px;
-    background-color: #7A9F79 !important;
+    background-color: #7a9f79 !important;
 }
 
-/* Простые стили для увеличения формы */
 .bigger-form {
-    min-height: 70vh; /* Форма занимает 70% высоты экрана */
+    min-height: 70vh; 
 }
 
 .bigger-form .card {
-   border-radius: 15px; /* Скругленные углы */
+    border-radius: 15px;
 }
 
-    .bigger-form .left-area {
-       
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-    }
+.bigger-form .left-area {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 
-    .bigger-form .card-body {
-        padding: 3rem; /* Больше внутреннего пространства */
-    }
+.bigger-form .card-body {
+    padding: 3rem; 
+}
 
-    .bigger-form .form-control {
-        padding: 12px; /* Большие поля ввода */
-        margin-bottom: 20px;
-    }
+.bigger-form .form-control {
+    padding: 12px; 
+    margin-bottom: 20px;
+}
 
-    .bigger-form .btn {
-        padding: 12px; /* Большая кнопка */
-        width: 100%;
-    }
+.bigger-form .btn {
+    padding: 12px;
+    width: 100%;
+}
 
-    .btn:active{
-        background-color: #c75d3a !important;
-    }
+.btn:active {
+    background-color: #c75d3a !important;
+}
 
 .left-area {
     background: #f8f9fa;
@@ -82,7 +83,7 @@ input::placeholder {
 }
 
 .welcome-title {
-    color: #FAF3E0;
+    color: #faf3e0;
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -90,7 +91,7 @@ input::placeholder {
 }
 
 .welcome-text {
-    color: #FAF3E0;
+    color: #faf3e0;
     line-height: 1.5;
     margin-bottom: 60px;
     font-size: 20px;
@@ -100,10 +101,10 @@ input::placeholder {
 .signup-prompt {
     margin-top: 20px;
     font-size: 14px;
-    color: #FAF3E0;
+    color: #faf3e0;
 }
 
 .signup-prompt a {
-    color: #FAF3E0;
+    color: #faf3e0;
     margin-left: 5px;
 }

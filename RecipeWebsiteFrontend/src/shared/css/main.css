@@ -1,0 +1,117 @@
+/* общие стили */
+/* NOTE: пока не нужно */
+:root {
+    --main-bg-color: #fff;
+    --second-bg-color: #f0e6d2;
+    --main-text-color: #4a4a4a;
+    --headers-color: #7a9f79;
+    --main-btn-color: #d27d60;
+    --second-btn-color: #e8d5bb;
+    --hover-btn-color: #c06a4a;
+    --active-links-color: #7a9f79;
+    --accent-color: #b5c2b7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg-color) !important;
+}
+
+/* контейнер для шапки */
+.header__container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* стили для поисковой строки шапки */
+.search-form {
+    display: flex;
+    border: 1px solid;
+    padding: 5px 7px;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    color: gray !important;
+    width: 60%;
+}
+
+.search-form__field {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: transparent;
+    color: gray !important;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.search-form__field::placeholder {
+    color: gray !important;
+}
+
+.search-form__field:focus {
+    color: gray !important;
+}
+
+.search-form__btn {
+    border: none;
+    background-color: transparent;
+}
+
+.search-form__img {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+/* базовый стиль для кнопок */
+.basic-btn {
+    background-color: #cf0;
+    color: black; 
+    border: none;
+    padding: 15px 20px;
+    border-radius: 9999px; /* делает кнопку полностью круглой по краям */
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.basic-btn:hover {
+    background-color: #b8e600;
+}
+
+.basic-btn__img {
+    width: 20px;
+    height: 20px;
+}
+
+/* стили для лого */
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.logo__img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo__text{
+    color: black;
+    font-weight: bold;
+}
