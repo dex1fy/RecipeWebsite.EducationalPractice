@@ -1,2 +1,4 @@
 .vs/
 ./RecipeWebsiteBackend/.vs
+**/bin/
+**/obj/RecipeWebsiteBackend/.vs/

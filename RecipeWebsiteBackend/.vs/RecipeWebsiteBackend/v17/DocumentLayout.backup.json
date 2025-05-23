@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TestModel.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\TestModel.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\TestModel.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\TestModel.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\TestModel.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\TestModel.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\TestModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -47,11 +43,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\appsettings.Development.json",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\appsettings.Development.json",
               "RelativeToolTip": "RecipeWebsiteBackend\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -60,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SupabaseService.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Services\\SupabaseService.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Services\\SupabaseService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T00:42:16.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T00:20:18.533Z",
               "EditorCaption": ""

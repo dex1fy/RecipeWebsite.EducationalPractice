@@ -1,3 +1,3 @@
-// добавить потом в гитигнор
+// добавить в гитигнор
 export const SUPABASE_URL = 'https://bwvendrvjgleqymbzfec.supabase.co';
 export const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ3dmVuZHJ2amdsZXF5bWJ6ZmVjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc3NjQyNDQsImV4cCI6MjA2MzM0MDI0NH0.nREHc_RzGJxM_DPn9gfmAjwAAH9cqy9QK-0gyLcxbfY';
