@@ -169,3 +169,6 @@ C:\Users\yarek\Рабочий стол\recipes_website\educational_practice-reci
 C:\Users\yarek\Рабочий стол\recipes_website\educational_practice-recipe_website\RecipeWebsiteBackend\RecipeWebsiteBackend\obj\Debug\net9.0\RecipeWebsiteBackend.pdb
 C:\Users\yarek\Рабочий стол\recipes_website\educational_practice-recipe_website\RecipeWebsiteBackend\RecipeWebsiteBackend\obj\Debug\net9.0\RecipeWebsiteBackend.genruntimeconfig.cache
 C:\Users\yarek\Рабочий стол\recipes_website\educational_practice-recipe_website\RecipeWebsiteBackend\RecipeWebsiteBackend\obj\Debug\net9.0\ref\RecipeWebsiteBackend.dll
+C:\Users\belov\Desktop\educational_practice-recipe_website\RecipeWebsiteBackend\RecipeWebsiteBackend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\belov\Desktop\educational_practice-recipe_website\RecipeWebsiteBackend\RecipeWebsiteBackend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\belov\Desktop\educational_practice-recipe_website\RecipeWebsiteBackend\RecipeWebsiteBackend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

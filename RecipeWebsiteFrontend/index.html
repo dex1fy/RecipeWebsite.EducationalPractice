@@ -14,14 +14,17 @@
         <link rel="stylesheet" href="src/shared/css/main.css" />
     </head>
     <body>
-
         <!-- шапка сайта -->
         <header class="header">
             <!-- контейнер бутстрапа -->
             <div class="header__container container">
                 <!-- лого -->
                 <a href="index.html" class="logo">
-                    <img class="logo__img" src="/assets/images/logo.png" alt="logo" />
+                    <img
+                        class="logo__img"
+                        src="/assets/images/logo.png"
+                        alt="logo"
+                    />
                     <span class="logo__text">АМНЯМ</span>
                 </a>
 
@@ -42,51 +45,20 @@
                 </form>
 
                 <!-- блок профиля (вход/личный кабинет) -->
-                <div class="profile-block">
-                    <button class="basic-btn">
-                        <img class="basic-btn__img" src="/assets/images/person-img.svg" alt="person">
-                        <span class="basic-btn-text">Войти</span>
-                    </button>
-                </div>
+                <a href="/src/pages/login/LoginPage.html">
+                    <div class="profile-block">
+                        <button class="basic-btn">
+                            <img
+                                class="basic-btn__img"
+                                src="/assets/images/person-img.svg"
+                                alt="person"
+                            />
+                            <span class="basic-btn-text">Войти</span>
+                        </button>
+                    </div>
+                </a>
             </div>
         </header>
-
-        <!-- NOTE: СТИЛЬ СТАРОЙ ВЕРСИИ (МБ ПРИГОДИТСЯ ПОТОМ) -->
-        <!-- навигация -->
-        <!-- <nav class="navigation navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="src/pages/HomePage.html">Home</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a
-                            class="nav-link active"
-                            aria-current="page"
-                            href="src/pages/login/LoginPage.html"
-                            >Login</a
-                        >
-                    </div>
-                    <div class="navbar-nav">
-                        <a
-                            class="nav-link active"
-                            aria-current="page"
-                            href="src/pages/registration/RegistrationPage.html"
-                            >Registration</a
-                        >
-                    </div>
-                </div>
-            </div>
-        </nav> -->
 
         <!-- тож подключение бутстрапа -->
         <script
