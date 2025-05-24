@@ -7,10 +7,10 @@ document.getElementById('registration-form').addEventListener('submit', async (e
     e.preventDefault(); // страница не перезагрузится 
 
     const email = document.getElementById('email').value
-    const password = document.querySelectorAll('#password')[0].value
-    const confirmPassword = document.querySelectorAll('#password')[1].value
-    const name = document.querySelectorAll('.form-control')[1].value
-    const username = document.querySelectorAll('.form-control')[2].value
+    const password = document.getElementById('password').value
+    const confirmPassword = document.getElementById('confirm_password').value
+    const name = document.getElementById('name').value
+    const username = document.getElementById('username').value
 
     if (password !== confirmPassword) {
         alert('Пароли не совпадают')
@@ -32,11 +32,11 @@ document.getElementById('registration-form').addEventListener('submit', async (e
     const { error: profileError } = await supabaseClient
     .from('users')
     .insert([
-      {
+    {
         id: user.id, // UUID из auth.users
         name,
         username
-      }
+    }
     ])
 
     if (profileError) {
