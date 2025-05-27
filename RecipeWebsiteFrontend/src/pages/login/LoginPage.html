@@ -27,7 +27,14 @@
         <div class="auth-form__container">
             <!-- левая часть формы -->
             <div class="auth-form__left-panel">
-                <div class="auth-form__logo">Ам-Ням</div>
+                <div class="reg-form__logo">
+                    <img
+                        class="reg-form__logo__img"
+                        src="/assets/images/white-logo.png"
+                        alt=""
+                    />
+                    <span>Ам-Ням</span>
+                </div>
                 <h2>Добро пожаловать!</h2>
                 <p>
                     Войдите, чтобы получить доступ к вашим рецептам, сохранённым
@@ -35,28 +42,51 @@
                 </p>
                 <p class="auth-form__non-acc">нет аккаунта?</p>
                 <a href="/src/pages/registration/RegistrationPage.html">
-                    <button class="auth-form__register-btn">Зарегистрироваться</button>
+                    <button class="auth-form__registration-btn">
+                        Зарегистрироваться
+                    </button>
                 </a>
             </div>
             <!-- правая часть формы -->
             <div class="auth-form__right-panel">
                 <h2>вход</h2>
                 <form id="login-form">
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="E-Mail"
-                        required
-                    />
-                    <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        placeholder="Пароль"
-                        required
-                    />
-                    <button type="submit">войти</button>
+                    <!-- имейл -->
+                    <div class="auth-form__right-panel__form-group">
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="email">E-mail</label>
+                    </div>
+                    <!-- пароль -->
+                    <div class="auth-form__right-panel__form-group">
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="password">Пароль</label>
+                    </div>
+
+                    <div class="auth-form__right-panel__bottom-block">
+                        <label class="auth-form__right-panel__remember-me">
+                            <input
+                                type="checkbox"
+                                class="auth-form__right-panel__remember-me__checkbox"
+                            />
+                            <span>Запомнить меня</span>
+                        </label>
+                        <a class="auth-form__right-panel__forgot-password"
+                            >Забыли пароль?</a
+                        >
+                    </div>
+                    <button type="submit">Войти</button>
                 </form>
             </div>
         </div>
