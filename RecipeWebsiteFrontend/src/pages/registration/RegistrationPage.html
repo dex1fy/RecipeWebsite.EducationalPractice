@@ -27,7 +27,14 @@
         <div class="reg-form__container">
             <!-- левая часть формы -->
             <div class="reg-form__left-panel">
-                <div class="reg-form__logo">Ам-Ням</div>
+                <div class="reg-form__logo">
+                    <img
+                        class="reg-form__logo__img"
+                        src="/assets/images/white-logo.png"
+                        alt=""
+                    />
+                    <span>Ам-Ням</span>
+                </div>
                 <h2>Добро пожаловать!</h2>
                 <p>
                     Зарегистрируйтесь, чтобы получить доступ к вашим рецептам,
@@ -42,41 +49,62 @@
             <div class="reg-form__right-panel">
                 <h2>регистрация</h2>
                 <form id="registration-form">
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="E-Mail"
-                        required
-                    />
-                    <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Имя"
-                        required
-                    />
-                    <input
-                        type="text"
-                        name="username"
-                        id="username"
-                        placeholder="Имя пользователя"
-                        required
-                    />
-                    <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        placeholder="Пароль"
-                        required
-                    />
-                    <input
-                        type="password"
-                        name="password"
-                        id="confirm_password"
-                        placeholder="Подтвердите пароль"
-                        required
-                    />
+                    <!-- имейл -->
+                    <div class="reg-form__right-panel__form-group">
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="email">E-mail</label>
+                    </div>
+                    <!-- имя -->
+                    <div class="reg-form__right-panel__form-group">
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="name">Имя</label>
+                    </div>
+                    <!-- имя пользователя -->
+                    <div class="reg-form__right-panel__form-group">
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="username">Имя пользователя</label>
+                    </div>
+                    <!-- пароль -->
+                    <div class="reg-form__right-panel__form-group">
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="password">Пароль</label>
+                    </div>
+                    <!-- подтверждение пароля -->
+                    <div class="reg-form__right-panel__form-group">
+                        <input
+                            type="password"
+                            name="confirm_password"
+                            id="confirm_password"
+                            placeholder=" "
+                            required
+                        />
+                        <label for="confirm_password">Подтвердите пароль</label>
+                    </div>
+
                     <button type="submit">Зарегистрироваться</button>
                 </form>
             </div>
