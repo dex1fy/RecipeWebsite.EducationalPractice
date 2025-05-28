@@ -12,38 +12,17 @@ document.getElementById('registration-form').addEventListener('submit', async (e
     const name = document.getElementById('name').value
     const username = document.getElementById('username').value
 
-    if (password !== confirmPassword) {
-        alert('Пароли не совпадают')
-        return
-    } 
+    const data = { email: email, password: password, confirmPassword: confirmPassword, name: name, username: username }
 
-    const { data: authData, error: signUpError } = await supabaseClient.auth.signUp({
-        email,
-        password
+
+    
+    let response = await fetch('http://localhost:5232/api/Authentication/register', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data)
     })
 
-    if (signUpError) {
-        alert('Ошибка регистрации: ' + signUpError.message)
-        return
-    }
-
-    const user = authData.user
-
-    const { error: profileError } = await supabaseClient
-    .from('users')
-    .insert([
-    {
-        id: user.id, // UUID из auth.users
-        name,
-        username
-    }
-    ])
-
-    if (profileError) {
-        alert('Ошибка при создании профиля: ' + profileError.message)
-        return
-    }
-
-    alert('Регистрация прошла успешно!')
-
+    console.log(await response.json());
 });

@@ -54,6 +54,7 @@ namespace RecipeWebsiteBackend
                 });
             });
 
+            builder.Services.AddScoped<SupabaseService>();
 
             var app = builder.Build();
 

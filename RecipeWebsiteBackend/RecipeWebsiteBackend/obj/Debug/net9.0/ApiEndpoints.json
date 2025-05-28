@@ -1,12 +1,28 @@
 [
   {
-    "ContainingType": "RecipeWebsiteBackend.Controllers.ProtectedController",
-    "Method": "Get",
-    "RelativePath": "api/Protected",
+    "ContainingType": "RecipeWebsiteBackend.Controllers.AuthenticationController",
+    "Method": "LoginUserAsync",
+    "RelativePath": "api/Authentication/login",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecipeWebsiteBackend.Controllers.AuthenticationController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Authentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RecipeWebsiteBackend.Models.DTOs.Registration.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]
