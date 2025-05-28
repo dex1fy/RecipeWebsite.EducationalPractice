@@ -22,9 +22,9 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
         localStorage.setItem('access_token', access_token);
         localStorage.setItem('refresh_token', refresh_token);
 
-        // для теста 
-        alert('access');
         await getProtectedData(); // вызов функции для отправки токена
+        localStorage.setItem("data", data);
+        window.location.href = "../../../index.html";
     }
 });
 
@@ -32,39 +32,27 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
 async function getProtectedData() {
     let token = localStorage.getItem('access_token');
     
-    let response = await fetch('http://localhost:5232/api/Protected', {
+    let response = await fetch('http://localhost:5232/api/Authentication/login', {
         headers: {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token
         }
     });
     console.warn(token)
-    // if (response.status === 401) {
-    //     console.warn('Access token expired, refreshing...');
-    //     token = await refreshAccessToken(); // получаем новый токен
-
-    //     if (!token) return; // если не получилось — выходим
-
-    //     // Повторный запрос уже с новым токеном
-    //     response = await fetch('https://localhost:7005/api/Protected', {
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //             'Authorization': `Bearer ${token}`
-    //         }
-    //     });
-    // }
-
+    
+    let data; 
     if (response.ok) {
-        const data = await response.json();
-        console.log('Данные от API:', data);
+        data = await response.json();
+        console.log(data)
     } else {
         const errorText = await response.text();
         console.error(`Ошибка: ${response.status}`, errorText);
         alert(`Ошибка: ${response.status}`);
     }
+    return data;
 }
 
-
+// пока что не надо (наверно не понадобится больше)
 async function refreshAccessToken() {
     const refreshToken = localStorage.getItem('refresh_token');
     console.warn(refreshToken)
