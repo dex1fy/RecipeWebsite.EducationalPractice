@@ -1,0 +1,9 @@
+.recipe-form__container {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    border: 1px solid var(--gray-text-color);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+}

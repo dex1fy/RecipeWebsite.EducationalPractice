@@ -24,5 +24,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecipeWebsiteBackend.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
