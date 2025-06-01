@@ -1,10 +1,16 @@
 /* подключение шрифтов */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import url(https://db.onlinewebfonts.com/c/2d9f8eba44c6cc97753724bedd5d9f28?family=Soyuz+Grotesk+Bold);
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url(https://db.onlinewebfonts.com/c/8d6084d5773d189ea43177c498f2719f?family=Lena);
+@font-face {
+    font-family: Lena;
+    src: url(/assets/fonts/Lena.ttf);
+}
 
+@font-face {
+    font-family: Soyuz;
+    src: url(/assets/fonts/Soyuz\ Grotesk\ Bold.otf);
+}
 /* общие стили */
 :root {
     --main-accent-color: #fec009;
@@ -58,7 +64,7 @@ body {
     display: flex;       
     align-items: center; 
     justify-content: flex-start; 
-    font-family: 'Lena';
+    font-family: Lena;
     font-weight: 500; 
 }
 
@@ -129,7 +135,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     font-weight: bold;
-    font-family: "Soyuz Grotesk Bold";
+    font-family: Soyuz;
 }
 
 /* стили самой формы */
