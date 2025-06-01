@@ -25,4 +25,6 @@ document.getElementById('registration-form').addEventListener('submit', async (e
     })
 
     console.log(await response.json());
+    window.location.href = "../../../index.html";
+
 });
