@@ -1,30 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 984e6820fd2285b0cc96925503d12246a23f043c
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\authentication\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\authentication\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\authentication\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 984e6820fd2285b0cc96925503d12246a23f043c
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\yarek\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 984e6820fd2285b0cc96925503d12246a23f043c
     }
   ],
   "DocumentGroupContainers": [
@@ -37,16 +56,12 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\UserResponse.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\UserResponse.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\UserResponse.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\UserResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -57,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\UserModel.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\Entities\\UserModel.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\UserModel.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\UserModel.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\Entities\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SupabaseService.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Services\\SupabaseService.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Services\\SupabaseService.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Services\\SupabaseService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,9 +98,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,11 +109,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAswEQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +122,15 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 984e6820fd2285b0cc96925503d12246a23f043c
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\yarek\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Program.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Program.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAwDgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

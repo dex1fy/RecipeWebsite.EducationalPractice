@@ -2521,23 +2521,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\belov\\.nuget\\packages\\": {},
+    "C:\\Users\\yarek\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\yarek\\Рабочий стол\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
       "projectName": "RecipeWebsiteBackend.Tests",
-      "projectPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
-      "packagesPath": "C:\\Users\\belov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\obj\\",
+      "projectPath": "C:\\Users\\yarek\\Рабочий стол\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+      "packagesPath": "C:\\Users\\yarek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yarek\\Рабочий стол\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\belov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2552,8 +2552,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj": {
-              "projectPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj"
+            "C:\\Users\\yarek\\Рабочий стол\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj": {
+              "projectPath": "C:\\Users\\yarek\\Рабочий стол\\recipes_website\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj"
             }
           }
         }
@@ -2611,7 +2611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2619,7 +2619,7 @@
     {
       "code": "NU1605",
       "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Swashbuckle.AspNetCore.Swagger from 8.1.2 to 8.1.1. Reference the package directly from the project to select a different version. \r\n RecipeWebsiteBackend.Tests -> RecipeWebsiteBackend -> Swashbuckle.AspNetCore.Swagger (>= 8.1.2) \r\n RecipeWebsiteBackend.Tests -> Swashbuckle.AspNetCore.Swagger (>= 8.1.1)",
+      "message": "Предупреждение как ошибка: Обнаружено понижение версии пакета Swashbuckle.AspNetCore.Swagger с 8.1.2 на 8.1.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n RecipeWebsiteBackend.Tests -> RecipeWebsiteBackend -> Swashbuckle.AspNetCore.Swagger (>= 8.1.2) \r\n RecipeWebsiteBackend.Tests -> Swashbuckle.AspNetCore.Swagger (>= 8.1.1)",
       "libraryId": "Swashbuckle.AspNetCore.Swagger",
       "targetGraphs": [
         "net9.0"
