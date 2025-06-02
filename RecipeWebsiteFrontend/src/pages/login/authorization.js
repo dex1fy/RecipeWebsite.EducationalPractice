@@ -8,8 +8,9 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     e.preventDefault(); // страница не перезагрузится
 
     // получение полей
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const form = document.getElementById('login-form')
 
     // подключение к супабейз
     const { data, error } = await supabaseClient.auth.signInWithPassword({
@@ -18,7 +19,10 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     });
 
     if (error) {
-        alert("Error" + error.message); // обработка ошибки
+        document.getElementById('email').classList.add('invalid');
+        document.getElementById('password').classList.add('invalid');
+        form.reset();
+        alert("Произошла ошибка входа. Попробуйте снова"); // обработка ошибки
     } else {
         // получение токена доступа
         const { access_token, refresh_token } = data.session;
