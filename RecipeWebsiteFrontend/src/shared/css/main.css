@@ -130,3 +130,9 @@
 #profile-ico {
     display: none;
 }
+
+/* стиль для формы при ошибке (красные цвета) */
+.invalid {
+    border: 1px solid rgba(231, 76, 60, 0.9) !important; 
+    background-color: rgba(231, 76, 60, 0.1) !important;  
+}
