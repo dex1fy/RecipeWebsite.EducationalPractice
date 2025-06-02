@@ -60,16 +60,16 @@ namespace RecipeWebsiteBackend.Controllers
                 Id = userGuid,
                 Name = response.Name,
                 UserName = response.UserName,
+                UserEmail = response.UserEmail,
             });
         }
 
         /// <summary>
         /// регистрация пользователя
-        /// тут будут всякие проверки валидации и хеширование паролей
+        /// тут будут всякие проверки
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        // TODO: реализовать хеширование
         [HttpPost("register")]
         public async Task<IActionResult> RegisterUser([FromBody] RegisterRequest request)
         {
@@ -77,11 +77,19 @@ namespace RecipeWebsiteBackend.Controllers
 
             // проверяет, соответствие модели, указанным правилам в DTO (посмотрите модель RegisterRequest)
             if(!ModelState.IsValid) 
-                return BadRequest(ModelState); // если данные невалидны (почта, пароль), то возвращаем 400
+                return BadRequest(new ProblemDetails { Title = "the email or password is incorrect" }); // если данные невалидны (почта, пароль), то возвращаем 400
 
             // проверка соответствия пароля
             if (request.Password != request.ConfirmPassword)
-                return BadRequest(new { message = "пароли не совпадают" });
+                return BadRequest(new ProblemDetails{ Title = "passwords don't match" });
+
+            //проверка на существующего пользователя
+            var existUser = await supabaseClient.From<UserModel>().Where(u => u.UserName == request.UserName || u.UserEmail == request.Email).Single();
+          
+            if (existUser != null)
+                return BadRequest(new ProblemDetails { Title = "the user with this username already exists" });
+
+            
 
             // регистрация
             var register = await supabaseClient.Auth.SignUp(
@@ -96,6 +104,7 @@ namespace RecipeWebsiteBackend.Controllers
                     Id = Guid.Parse(register.User.Id),
                     Name = request.Name,
                     UserName = request.UserName,
+                    UserEmail = request.Email,
                 };
 
                 // заполянем таблицу пользователей (не аутентификация)

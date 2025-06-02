@@ -15,5 +15,8 @@ namespace RecipeWebsiteBackend.Models.Entities
 
         [Column("username")]
         public string? UserName { get; set; }
+
+        [Column("useremail")]
+        public string? UserEmail { get; set; }
     }
 }

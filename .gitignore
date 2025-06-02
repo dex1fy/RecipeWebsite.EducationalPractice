@@ -1,4 +1,7 @@
-.vs/
-./RecipeWebsiteBackend/.vs
+**/.vs/
 **/bin/
-**/obj/RecipeWebsiteBackend/.vs/
+**/obj/
+*.suo
+*.user
+*.backup
+*.cache
