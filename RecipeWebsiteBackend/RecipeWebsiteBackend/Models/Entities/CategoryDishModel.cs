@@ -12,5 +12,6 @@ namespace RecipeWebsiteBackend.Models.Entities
 
         [Column("name")]
         public string Name { get; set; }
+
     }
 }

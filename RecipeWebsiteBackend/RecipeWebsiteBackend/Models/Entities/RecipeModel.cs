@@ -3,7 +3,7 @@ using Supabase.Postgrest.Attributes;
 
 namespace RecipeWebsiteBackend.Models.Entities
 {
-    [Table("recipe")]
+    [Table("dish")]
     public class Recipe : BaseModel
     {
         [PrimaryKey("id")]
@@ -45,16 +45,6 @@ namespace RecipeWebsiteBackend.Models.Entities
 
         [Column("calories")]
         public int Calories { get; set; }
-
-        //// Навигационные свойства (для внешних ключей)
-        //[Reference(typeof(CategoryDish), "cat_key", "id")]
-        //public CategoryDish Category { get; set; }
-
-        //[Reference(typeof(CategoryDishCuisineModel), "cat_cuisine_key", "id")]
-        //public CategoryDishCuisineModel CategoryCuisine { get; set; }
-
-        //[Reference(typeof(CategoryDishMenuModel), "cat_menu_key", "id")]
-        //public CategoryDishMenuModel CategoryMenu { get; set; }
         
     }
 }

@@ -30,7 +30,7 @@ namespace RecipeWebsiteBackend.Controllers
             var Data = response.Models;
              
             return Ok(response.Content);
-          // возвращает [{ id: ..., name: ... }, ...]
+          
         }
     }
 }

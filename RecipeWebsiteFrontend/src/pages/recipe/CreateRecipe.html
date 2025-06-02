@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="/src/shared/css/main.css" />
     <!-- ПОДКЛЮЧЕНИЕ ТЕСТОВОГО ФАЙЛА -->
     <script type="module" src="/testCheck.js" defer></script>
+     <script
+            type="module"
+            src="/src/pages/registration/registration.js"
+            defer
+        ></script>
 </head>
 
 <body>
@@ -56,20 +61,63 @@
     <h1> Создание рецепта </h1>
     <h2> Описание блюда </h2>
     <div class="form-right-panel">
-        <input type="text" name="name" id="name" placeholder=" " required />
+        <input type="text" name="name" id="name" placeholder="Добавить название" required />
         <label for="name">Название блюда</label>
     </div>
 
     <div class="form-right-panel">
-        <input type="text" name="short_description" id="short_description" placeholder=" " required />
+        <input type="text" name="short_description" id="short_description" placeholder="Добавить описание блюда" required />
         <label for="short_description">Краткое описание</label>
     </div>
 
-    <label for="category">Категория блюда:</label>
+    <label for="category">Категория блюда</label>
 <select id="category" name="category"></select>
 
+<label for="cuisine">Кухня</label>
+<select id="cuisine" name="cuisine"></select>
+
+<label for="menu">Тип меню</label>
+<select id="menu" name="menu"></select>
+
+<h2>Настройте количество белков, жиров и углеводов</h2>
+<h3>В 100 граммах</h3>
+
+ <div class="option-panel">
+        <input type="number" name="squirells" id="squirells" min="0" step="1" placeholder="" required />
+        <label for="squirells">Белки</label>
+    </div>
+
+     <div class="option-panel">
+       <input type="number" name="fats" id="fats" min="0" step="1" placeholder="" required />
+        <label for="fats">Жиры</label>
+    </div>
+
+     <div class="option-panel">
+       <input type="number" name="carbohydrates" id="carbohydrates" min="0" step="1" placeholder="" required />
+        <label for="short_description">Углеводы</label>
+    </div>
+
+<h2>Добавление ингредиентов</h2>
+<div class="ingredients-section">
+  <h3>Ингредиенты</h3>
+  <div class="ingredients-list" id="ingredientsContainer">
+    <!-- Первое поле будет добавлено автоматически через JS -->
+  </div>
+  <button type="button" id="addIngredientBtn" class="btn btn-secondary mt-2">+ Добавить еще</button>
+</div>
+
+<h2>Добавление инструкции по приготовлению</h2>
+ <div class="form-right-panel">
+        <input type="text" name="steps" id="steps" placeholder="Опишите процесс приготовления" required />
+        <label for="short_description">Подробное описание</label>
+    </div>
+
+<button type="submit" id="saveButton" class="save-btn">
+  Сохранить рецепт
+</button>
+
 <script>
-  async function dataTry() {
+  async function CategoryData() {
     let token = localStorage.getItem("access_token");
 
     try {
@@ -85,9 +133,9 @@
       }
 
       let data = await response.json();
-      console.log(data); // для отладки
+      console.log(data); 
 
-      // Заполнение select
+     
       const select = document.getElementById("category");
       data.forEach(category => {
         const option = document.createElement("option");
@@ -101,12 +149,81 @@
     }
   }
 
- dataTry();
-
-//   window.onload = dataTry;
-
+CategoryData();
 </script>
 
+<script>
+  async function CuisineData() {
+    let token = localStorage.getItem("access_token");
+
+    try {
+      let response = await fetch('http://localhost:5232/api/CategoriesDishCuisine', {
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer " + token,
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`Ошибка: ${response.status}`);
+      }
+
+      let data = await response.json();
+      console.log(data); 
+
+     
+      const select = document.getElementById("cuisine");
+      data.forEach(cuisine => {
+        const option = document.createElement("option");
+        option.value = cuisine.id;         // UUID из Supabase
+        option.textContent = cuisine.name; // Название категории
+        select.appendChild(option);
+      });
+
+    } catch (err) {
+      console.error("Ошибка при получении видов кухонь:", err);
+    }
+  }
+
+CuisineData();
+</script>
+
+<script>
+  async function MenuData() {
+    let token = localStorage.getItem("access_token");
+
+    try {
+      let response = await fetch('http://localhost:5232/api/CategoriesMenu', {
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer " + token,
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`Ошибка: ${response.status}`);
+      }
+
+      let data = await response.json();
+      console.log(data); 
+
+     
+      const select = document.getElementById("menu");
+      data.forEach(menu => {
+        const option = document.createElement("option");
+        option.value = menu.id;         // UUID из Supabase
+        option.textContent = menu.name; // Название категории
+        select.appendChild(option);
+      });
+
+    } catch (err) {
+      console.error("Ошибка при получении категорий:", err);
+    }
+  }
+
+MenuData();
+
+</script>
 
 
     <!-- тож подключение бутстрапа -->

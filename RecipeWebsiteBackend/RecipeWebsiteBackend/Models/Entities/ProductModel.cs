@@ -3,14 +3,13 @@ using Supabase.Postgrest.Attributes;
 
 namespace RecipeWebsiteBackend.Models.Entities
 {
-    [Table("category_dish_menu")]
-    public class CategoryDishMenuModel : BaseModel
+    [Table("product")]
+    public class ProductModel : BaseModel
     {
         [PrimaryKey("id")]
         [Column("id")]
         public Guid Id { get; set; }
-
         [Column("name")]
-        public string Name { get; set; }
+        public string name { get; set; }
     }
 }
