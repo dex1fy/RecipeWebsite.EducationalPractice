@@ -31,7 +31,7 @@ namespace RecipeWebsiteBackend.Models.Entities
         [Column("cat_menu_key")] 
         public Guid CatMenuKey { get; set; } // —сылаетс€ на CategoryDishMenuModel.id
 
-        [Column("short_descrip")]
+        [Column("short_description")]
         public string ShortDescription { get; set; }
 
         [Column("squirrels")]
