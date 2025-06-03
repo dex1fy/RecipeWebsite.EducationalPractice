@@ -1,0 +1,62 @@
+
+/* подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+    font-family: Lena;
+    src: url(/assets/fonts/Lena.ttf);
+}
+@font-face {
+    font-family: Soyuz;
+    src: url(/assets/fonts/SoyuzGroteskBold.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(/assets/fonts/Rubik_medium.ttf);
+}
+@font-face {
+    font-family: Jost;
+    src: url(/assets/fonts/Jost-Light.ttf);
+}
+
+/* общие стили */
+:root {
+    --main-accent-color: #fec009;
+    --main-accent-color-hover: #e0a800;
+    --secondary-accent-color: #ffd760;
+    --secondary-accent-color: #ffc850;
+    --gray-text-color: #ccc;
+    --dark-gray-text-color: #333333;
+}
+
+.fav-section {
+    margin-top: 40px;
+}
+
+.fav-section h1 {
+    font-family: Soyuz;
+}
+
+.fav-section__card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 50px; 
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fav-section__card__container {
+    padding: 2px 16px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}

@@ -18,7 +18,7 @@ namespace RecipeWebsiteBackend
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
+            
             builder.Services.AddSwaggerGen();
             var bytes = Encoding.UTF8.GetBytes(builder.Configuration["Authentication:JwtSecret"]);
             builder.Services.AddAuthentication("Bearer")
@@ -61,7 +61,6 @@ namespace RecipeWebsiteBackend
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.MapOpenApi();
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
