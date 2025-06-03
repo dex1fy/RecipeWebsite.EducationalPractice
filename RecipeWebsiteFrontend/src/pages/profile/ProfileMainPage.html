@@ -13,6 +13,10 @@
         />
 
         <link rel="stylesheet" href="profile.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -65,9 +69,18 @@
                     <img
                         src="/assets/images/carrot_test.png"
                         class="rounded mx-auto d-block text-center"
+                        style="width: 100px; height: 100px;"
                     />
                 </div>
-                <div class="row justify-content-center">testname</div>
+                <div class="row justify-content-center">
+                    <script type="text/javascript" src="profile_main.js"> 
+                        document.write(test1())
+                    </script>
+                </div>
+
+
+
+
                 <div class="row justify-content-center">@testname</div>
                 <div class="row justify-content-center">0 рецептов</div>
 
@@ -78,9 +91,11 @@
                         </button>
                     </div>
                     <div class="col-2 text-center">
-                        <button class="basic-btn text-center" style="width: 200px">
-                            Изменить профиль
-                        </button>
+                        <a href="ProfileEdit.html">
+                            <button class="basic-btn text-center" style="width: 200px">
+                                Изменить профиль
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -150,21 +165,26 @@
                 >
                     <div class="row">
                         <div class="col-3">
-                            <img src="/assets/images/carrot_test.png" />
+                            <img src="/assets/images/carrot_test.png" 
+                            style="width: 300px; height: 300px;"/>
                         </div>
                         <div class="col-3">
-                            <img src="/assets/images/carrot_test.png" />
+                            <img src="/assets/images/carrot_test.png" 
+                            style="width: 300px; height: 300px;"/>
                         </div>
                         <div class="col-3">
-                            <img src="/assets/images/carrot_test.png" />
+                            <img src="/assets/images/carrot_test.png"
+                            style="width: 300px; height: 300px;" />
                         </div>
                         <div class="col-3">
-                            <img src="/assets/images/carrot_test.png" />
+                            <img src="/assets/images/carrot_test.png"
+                                style="width: 300px; height: 300px;" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     </body>
 </html>
