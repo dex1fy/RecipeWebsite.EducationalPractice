@@ -46,7 +46,7 @@
     color: black; 
     border: none;
     padding: 15px 20px;
-    border-radius: 9999px; /* делает кнопку полностью круглой по краям */
+    border-radius: 9999px; 
     font-size: 16px;
     cursor: pointer;
     font-weight: 500;
