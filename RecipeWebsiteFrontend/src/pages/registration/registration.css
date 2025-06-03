@@ -1,0 +1,208 @@
+/* подключение шрифтов */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@font-face {
+    font-family: Lena;
+    src: url(/assets/fonts/Lena.ttf);
+}
+
+@font-face {
+    font-family: Soyuz;
+    src: url(/assets/fonts/Soyuz\ Grotesk\ Bold.otf);
+}
+
+/* общие стили */
+:root {
+    --main-accent-color: #fec009;
+    --main-accent-color-hover: #e0a800;
+    --secondary-accent-color: #ffd760;
+    --secondary-accent-color: #ffc850;
+    --gray-text-color: #ccc;
+    --dark-gray-text-color: #333333;
+}
+
+/*  стили для формы регистрации */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* контейнер формы */
+.reg-form__container {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    border: 1px solid var(--gray-text-color);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+}
+
+.reg-form__left-panel,
+.reg-form__right-panel {
+    flex: 1;
+    padding: 30px 30px;
+}
+
+/* левая часть формы */
+.reg-form__left-panel {
+    background-image: url("/assets/images/login_image.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* лого формы */
+.reg-form__logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Lena";
+    font-weight: 500;
+}
+
+.reg-form__logo__img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.reg-form__logo span {
+    margin-top: 5px;
+}
+
+/* заголовок */
+.reg-form__left-panel h2 {
+    margin-bottom: 15px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+/* абзац */
+.reg-form__left-panel p {
+    font-size: 18px;
+    color: white;
+    font-family: "Jost", sans-serif;
+}
+
+/* нижний абзац */
+.reg-form__acc {
+    color: white;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-family: "Jost", sans-serif;
+    font-size: 15px !important;
+}
+
+/* стили левой кнопки */
+.reg-form__login-btn {
+    padding: 10px 20px;
+    border: 1px solid var(--main-accent-color);
+    border-radius: 20px;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 200px;
+    color: var(--main-accent-color);
+    transition: background 0.3s;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.reg-form__login-btn:hover {
+    background-color: var(--main-accent-color);
+    color: black;
+}
+
+/* правая панель */
+.reg-form__right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+}
+
+.reg-form__right-panel h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Soyuz;
+}
+
+/* стили самой формы */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.reg-form__right-panel__form-group {
+    position: relative;
+    width: 80%;
+}
+
+.reg-form__right-panel__form-group input {
+    width: 100%;
+    padding: 14px 12px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    background: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: var(--dark-gray-text-color);
+}
+
+.reg-form__right-panel__form-group label {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0 4px;
+    color: var(--gray-text-color);
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+/* анимация "поднятия к рамке" */
+.reg-form__right-panel__form-group input:focus + label,
+.reg-form__right-panel__form-group input:not(:placeholder-shown) + label {
+    top: 0px;
+    left: 18px;
+    font-size: 13px;
+    color: var(--gray-text-color);
+}
+
+form button {
+    width: 80%;
+    padding: 12px;
+    background: var(--main-accent-color);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 20px;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+form button:hover {
+    background: var(--main-accent-color-hover);
+}
+
+
