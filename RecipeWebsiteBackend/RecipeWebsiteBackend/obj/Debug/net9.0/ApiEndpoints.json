@@ -54,5 +54,21 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SaveRecipeController",
+    "Method": "CreateRecipe",
+    "RelativePath": "api/SaveRecipe/createrecipe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RecipeWebsiteBackend.Models.DTOs.Recipe.RecipeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
