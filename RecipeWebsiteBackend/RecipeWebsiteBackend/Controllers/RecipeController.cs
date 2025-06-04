@@ -16,41 +16,12 @@ public class RecipeController : ControllerBase
         _supabaseService = supabaseService;
     }
 
-    // Существующий метод получения всех рецептов
-    [HttpGet]
-    public async Task<IActionResult> GetAllRecipes()
-    {
-        try
-        {
-            var supabaseClient = await _supabaseService.InitSupabase();
-
-            var response = await supabaseClient
-                .From<Recipe>()
-                .Select("id, name, cooking_time")
-                .Order(x => x.Name, Ordering.Ascending)
-                .Get();
-
-            var recipes = response.Models.Select(r => new RecipeDto
-            {
-                Id = r.Id,
-                Name = r.Name,
-                CookingTime = r.CookingTime,
-            }).ToList();
-
-            return Ok(recipes);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, "Произошла ошибка на сервере");
-        }
-    }
-
+   
     // Новый метод для получения конкретного рецепта
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetRecipeById(Guid id)
+    public async Task<IActionResult> GetRecipeById(string id)
     {
-        try
-        {
+        
             var supabaseClient = await _supabaseService.InitSupabase();
 
             // 1. Получаем основной рецепт
@@ -63,38 +34,42 @@ public class RecipeController : ControllerBase
             if (recipeResponse == null)
                 return NotFound("Рецепт не найден");
 
-            // 2. Получаем связанные ингредиенты
-            var ingredientsResponse = await supabaseClient
+            var dishProduct = await supabaseClient
                 .From<DishProductModel>()
-                .Select("product_id, product:product_id(name)")
-                .Filter("dish_id", Operator.Equals, id)
+                .Where(x => x.DishId == recipeResponse.Id)
                 .Get();
 
-            // 3. Формируем DTO с полной информацией
-            var recipeDetails = new RecipeRequest
+            var productIds = dishProduct.Models.Select(dp => dp.ProductId).ToList();
+
+             // 2.Получаем связанные ингредиенты
+                var allProductsResponse = await supabaseClient
+                    .From<ProductModel>()
+                    .Get();
+
+                var ingredientsList = allProductsResponse.Models
+                    .Where(p => productIds.Contains(p.Id))
+                    .ToList();
+
+        var ingredientDtos = ingredientsList.Select(p => new IngredientDto
+        {
+            ProductId = p.Id,             // Или p.ProductId, если так называется
+            ProductName = p.name          // Или p.Title, или другое имя свойства
+        }).ToList();
+        // 3. Формируем DTO с полной информацией
+        var recipeDetails = new RecipeDetailsDto
             {
-                //Id = .Id,
-                //Name = recipeResponse.Model.Name,
-                //CookingTime = recipeResponse.Model.CookingTime,
-                //Steps = recipeResponse.Model.Steps,
-                //Image = recipeResponse.Model.Image,
-                //ShortDescription = recipeResponse.Model.ShortDescription,
-                //Proteins = recipeResponse.Model.Squirrels,
-                //Fats = recipeResponse.Model.Fats,
-                //Carbohydrates = recipeResponse.Model.Carbohydrates,
-                //Calories = recipeResponse.Model.Calories,
-                //Ingredients = ingredientsResponse.Models.Select(i => new IngredientDto
-                //{
-                //    ProductId = i.ProductId,
-                //    ProductName = i.Product?.name,
-                //}).ToList()
-            };
+                Name = recipeResponse.Name,
+                Steps = recipeResponse.Steps,
+                Ingredients = ingredientDtos,
+                CookingTime = recipeResponse.CookingTime,
+                Calories = recipeResponse.Calories,
+                Fats = recipeResponse.Fats,
+                Proteins = recipeResponse.Squirrels,
+                ShortDescription = recipeResponse.ShortDescription,
+                Carbohydrates = recipeResponse.Carbohydrates,
+        };
 
             return Ok(recipeDetails);
         }
-        catch (Exception ex)
-        {
-            return StatusCode(500, $"Ошибка при получении рецепта: {ex.Message}");
-        }
+        
     }
-}

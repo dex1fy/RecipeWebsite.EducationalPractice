@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ам-ням</title>
+        <!-- подключение стилей -->
+        <link rel="stylesheet" href="/src/pages/recipe/CreateRecipe.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/src/shared/css/main.css" />
+        <!-- ПОДКЛЮЧЕНИЕ ТЕСТОВОГО ФАЙЛА -->
+        <script type="module" src="/src/pages/recipe/Recipe.js" defer></script>
+        <script type="module" src="/testCheck.js" defer></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ам-ням</title>
-    <!-- подключение стилей -->
-    <link rel="stylesheet" href="/src/pages/recipe/CreateRecipe.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/src/shared/css/main.css" />
-    <!-- ПОДКЛЮЧЕНИЕ ТЕСТОВОГО ФАЙЛА -->
-    <script type="module" src="/testCheck.js" defer></script>
-</head>
-
-<body>
-    <!-- шапка сайта -->
-    <!-- шапка сайта -->
-    <header class="header">
-        <!-- контейнер бутстрапа -->
-        <div class="header__container container">
-            <!-- лого -->
-            <a href="/index.html" class="logo">
-                <img class="logo__img" src="/assets/images/logo.png" alt="logo" />
-                <span class="logo__text">Ам-Ням</span>
-            </a>
-
-            <!-- поиск на странице -->
-            <form class="search-form" role="search">
-                <button class="search-form__btn">
-                    <img class="search-form__img" src="/assets/images/search-img.svg" alt="" />
-                </button>
-                <input class="search-form__field" type="text" placeholder="Поиск" />
-            </form>
-            <!-- блок профиля (вход/личный кабинет) -->
-            <a href="/src/pages/login/LoginPage.html">
-                <div class="profile-block">
-                    <button class="basic-btn" id="auth-btn">
-                        <img class="basic-btn__img" src="/assets/images/person-img.svg" alt="person" />
-                        <span class="basic-btn-text">Войти</span>
-                    </button>
-                </div>
-            </a>
-
-             <!-- ТЕСТОВАЯ ЗАГЛУШКА ПОСЛЕ ВХОДА  -->
-            <div class="profile-icon__container">
-
-                <a href="/src/pages/profile/ProfileMainPage.html" id="profile-ico">
-                    <div class="profile-icon">
-                        ico
-                    </div>
-
+    <body>
+        <!-- шапка сайта -->
+        <!-- шапка сайта -->
+        <header class="header">
+            <!-- контейнер бутстрапа -->
+            <div class="header__container container">
+                <!-- лого -->
+                <a href="/index.html" class="logo">
+                    <img
+                        class="logo__img"
+                        src="/assets/images/logo.png"
+                        alt="logo"
+                    />
+                    <span class="logo__text">Ам-Ням</span>
                 </a>
-                <select name="" id="exit-select">
-                    <option value="">
-                        Выйти
-                    </option>
-                </select>
+
+                <!-- поиск на странице -->
+                <form class="search-form" role="search">
+                    <button class="search-form__btn">
+                        <img
+                            class="search-form__img"
+                            src="/assets/images/search-img.svg"
+                            alt=""
+                        />
+                    </button>
+                    <input
+                        class="search-form__field"
+                        type="text"
+                        placeholder="Поиск"
+                    />
+                </form>
+                <!-- блок профиля (вход/личный кабинет) -->
+                <a href="/src/pages/login/LoginPage.html">
+                    <div class="profile-block">
+                        <button class="basic-btn" id="auth-btn">
+                            <img
+                                class="basic-btn__img"
+                                src="/assets/images/person-img.svg"
+                                alt="person"
+                            />
+                            <span class="basic-btn-text">Войти</span>
+                        </button>
+                    </div>
+                </a>
+
+                <!-- ТЕСТОВАЯ ЗАГЛУШКА ПОСЛЕ ВХОДА  -->
+                <div class="profile-icon__container">
+                    <a
+                        href="/src/pages/profile/ProfileMainPage.html"
+                        id="profile-ico"
+                    >
+                        <div class="profile-icon">ico</div>
+                    </a>
+                    <select name="" id="exit-select">
+                        <option value="">Выйти</option>
+                    </select>
+                </div>
             </div>
+        </header>
 
+        <div id="main-form">            
+            <div id="name"></div>
+            <div id="steps"></div>
+            <div id="ingredients"></div>
+            <div id="CookingTime"></div>
+            <div id="Calories"></div>
+            <div id="Fats"></div>
+            <div id="Proteins"></div>
+            <div id="ShortDescription"></div>
+            <div id="Carbohydrates"></div>
         </div>
-    </header>
-
-    <h1> рецептик</h1>
+    </body>
+</html>

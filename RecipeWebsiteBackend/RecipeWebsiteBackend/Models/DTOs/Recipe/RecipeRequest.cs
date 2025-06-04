@@ -39,4 +39,5 @@ namespace RecipeWebsiteBackend.Models.DTOs.Recipe
 
         public int Calories { get; set; }
     }
+
 }
