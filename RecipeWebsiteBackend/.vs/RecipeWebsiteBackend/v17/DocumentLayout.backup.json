@@ -1,38 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\controllers\\saverecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\saverecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\saverecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\recipe\\reciperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\recipe\\recipecardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\recipe\\recipecardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\recipe\\viewreciperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\recipe\\viewreciperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\recipe\\reciperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\recipe\\reciperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\entities\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\entities\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\models\\entities\\recipemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\getrecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\getrecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\entities\\recipemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\entities\\recipemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\controllers\\categorymenucontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{412F9B5B-5687-44BC-8A14-601E6BE92618}|RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend.tests\\recipewebsitebackend.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{412F9B5B-5687-44BC-8A14-601E6BE92618}|RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj|solutionrelative:recipewebsitebackend.tests\\recipewebsitebackend.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\categorymenucontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\categorymenucontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\controllers\\categorydishcuisinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\categorydishcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\categorydishcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\categorydishcuisinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\categorydishcuisinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\belov\\desktop\\educational_practice-recipe_website\\recipewebsitebackend\\recipewebsitebackend\\controllers\\categorydishcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\categorydishcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|c:\\users\\dexify\\desktop\\w\\recipewebsite.educationalpractice\\recipewebsitebackend\\recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AC85F-0BA0-4911-8DB0-E29432817586}|RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj|solutionrelative:recipewebsitebackend\\models\\dtos\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +70,209 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipeCardRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeCardRequest.cs",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeCardRequest.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeCardRequest.cs",
+              "RelativeToolTip": "RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeCardRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:36:03.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:06:20.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewRecipeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\ViewRecipeRequest.cs",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\ViewRecipeRequest.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\ViewRecipeRequest.cs",
+              "RelativeToolTip": "RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\ViewRecipeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T19:56:11.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecipeWebsiteBackend.Tests",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+              "RelativeToolTip": "RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T19:50:52.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetRecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\GetRecipeController.cs",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\GetRecipeController.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\GetRecipeController.cs",
+              "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\GetRecipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T19:43:09.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\ProductModel.cs",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\Entities\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\ProductModel.cs",
+              "RelativeToolTip": "RecipeWebsiteBackend\\Models\\Entities\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:44:29.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IngredientsController.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\IngredientsController.cs",
+              "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\IngredientsController.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\IngredientsController.cs",
+              "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\IngredientsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:44:05.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "RecipeModel.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\RecipeModel.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\RecipeModel.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\Entities\\RecipeModel.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\RecipeModel.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\Entities\\RecipeModel.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\Entities\\RecipeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T00:30:08.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RecipeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeRequest.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeRequest.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeRequest.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeRequest.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\DTOs\\Recipe\\RecipeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T00:27:13.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Models\\DTOs\\Authentication\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:45:32.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T23:45:32.578Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SaveRecipeController.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\SaveRecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\SaveRecipeController.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\SaveRecipeController.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\SaveRecipeController.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\SaveRecipeController.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\SaveRecipeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T23:11:39.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAwwDsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:11:20.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T23:11:20.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CategoryMenuControllers.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryMenuControllers.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryMenuControllers.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\CategoryMenuControllers.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryMenuControllers.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryMenuControllers.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\CategoryMenuControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T23:11:38.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "CategoryDishCuisineController.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishCuisineController.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishCuisineController.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\CategoryDishCuisineController.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishCuisineController.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishCuisineController.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\CategoryDishCuisineController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T23:11:32.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "CategoryDishControllers.cs",
-              "DocumentMoniker": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishControllers.cs",
+              "DocumentMoniker": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishControllers.cs",
               "RelativeDocumentMoniker": "RecipeWebsiteBackend\\Controllers\\CategoryDishControllers.cs",
-              "ToolTip": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishControllers.cs",
+              "ToolTip": "C:\\Users\\dexify\\Desktop\\w\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\Controllers\\CategoryDishControllers.cs",
               "RelativeToolTip": "RecipeWebsiteBackend\\Controllers\\CategoryDishControllers.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T23:11:29.443Z",
               "EditorCaption": ""

@@ -56,6 +56,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RecipeWebsiteBackend.Controllers.IngredientsController",
+    "Method": "GetCuisine",
+    "RelativePath": "api/Ingredients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecipesController",
+    "Method": "GetAllRecipes",
+    "RelativePath": "api/Recipes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SaveRecipeController",
     "Method": "CreateRecipe",
     "RelativePath": "api/SaveRecipe/createrecipe",
