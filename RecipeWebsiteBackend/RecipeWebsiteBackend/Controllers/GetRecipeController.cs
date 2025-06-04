@@ -30,11 +30,16 @@ public class RecipesController : ControllerBase
                 .Order(x => x.Name, Ordering.Ascending)
                 .Get();
 
+            // обращаемся к корзине с картинками 
+            var bucket = supabaseClient.Storage.From("images");
+
             var recipes = response.Models.Select(r => new RecipeDto
             {
                 Id = r.Id,
                 Name = r.Name,
                 CookingTime = r.CookingTime,
+                // название картинки - гуид диша (рецепта)
+                imgUrl = bucket.GetPublicUrl($"{r.Id}.jpg"), // добавил новое поле для ссылки на картинку
             }).ToList();
 
             return Ok(recipes);

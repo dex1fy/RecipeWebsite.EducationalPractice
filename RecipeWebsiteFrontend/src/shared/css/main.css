@@ -106,6 +106,11 @@
     height: 20px;
 }
 
+.profile-block {
+    text-decoration: none;
+}
+
+
 /* стили для лого */
 .logo {
     display: flex;
@@ -128,16 +133,48 @@
     margin-left: 10px;
 }
 
-/* ТЕСТОВЫЙ СТИЛЬ */
-#profile-ico {
-    display: none;
-}
+
 
 /* стиль для формы при ошибке (красные цвета) */
 .invalid {
     border: 1px solid rgba(231, 76, 60, 0.9) !important; 
     background-color: rgba(231, 76, 60, 0.1) !important;  
 }
+
+/* ТЕСТОВЫЙ СТИЛЬ */
+#profile-ico {
+    display: none;
+    text-decoration: none;
+
+}
+
+.profile-icon__container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon__container select {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    border:0px;
+    outline:0px;
+}
+
+.profile-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-color: var(--gray-text-color);
+    text-decoration: none;
+}
+
+
 
 h2 {
     font-family: "Manrope", sans-serif; 
@@ -224,4 +261,5 @@ h1 {
     .recipe-card {
         margin-bottom: 16px;
     }
+
 }
