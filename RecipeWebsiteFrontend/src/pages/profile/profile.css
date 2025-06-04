@@ -39,7 +39,7 @@
     box-sizing: border-box;
 }
 
-/* базовый стиль для кнопок */
+
 .basic-btn {
     font-family: Rubik !important;
     background-color: var(--main-accent-color)!important;
@@ -61,7 +61,7 @@
     height: 20px;
 }
 
-/* стили для лого */
+
 .logo {
     display: flex;
     align-items: center;
@@ -83,10 +83,7 @@
     margin-left: 10px;
 }
 
- *{
-    font-family: Montserrat;
-    font-size: 14px;
-}
+
 
 
 .nav-link-profile{

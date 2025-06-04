@@ -136,3 +136,7 @@
     border: 1px solid rgba(231, 76, 60, 0.9) !important; 
     background-color: rgba(231, 76, 60, 0.1) !important;  
 }
+
+.profile-btn{
+    border-radius: 500px !important;
+}

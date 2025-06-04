@@ -1,7 +1,7 @@
-async function test1(){
-    document.write("hello")
-}
-test1()
+// async function test1(){
+//     document.write("hello")
+// }
+// test1()
 
 async function UsersData() {
     let token = localStorage.getItem("access_token");
