@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj": {}
+    "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj": {
+    "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+        "projectUniqueName": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
         "projectName": "RecipeWebsiteBackend.Tests",
-        "projectPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
-        "packagesPath": "C:\\Users\\belov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\obj\\",
+        "projectPath": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\RecipeWebsiteBackend.Tests.csproj",
+        "packagesPath": "C:\\Users\\беловда\\.nuget\\packages\\",
+        "outputPath": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\belov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\беловда\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj": {
-                "projectPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj"
+              "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj": {
+                "projectPath": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj"
               }
             }
           }
@@ -47,34 +48,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.12.0, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[8.1.1, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.9.2, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[2.8.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -86,29 +64,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj": {
+    "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj",
+        "projectUniqueName": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj",
         "projectName": "RecipeWebsiteBackend",
-        "projectPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj",
-        "packagesPath": "C:\\Users\\belov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\belov\\Desktop\\educational_practice-recipe_website\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\obj\\",
+        "projectPath": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\RecipeWebsiteBackend.csproj",
+        "packagesPath": "C:\\Users\\беловда\\.nuget\\packages\\",
+        "outputPath": "D:\\Belov\\RecipeWebsite.EducationalPractice\\RecipeWebsiteBackend\\RecipeWebsiteBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\belov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\беловда\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -134,8 +108,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -189,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
