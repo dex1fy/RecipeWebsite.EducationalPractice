@@ -1,68 +1,263 @@
-.recipe-form__container {
-    display: flex;
-    width: 800px;
-    margin: 50px auto;
-    border: 1px solid var(--gray-text-color);
-    border-radius: 10px;
-    overflow: hidden;
-    background: white;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@font-face {
+    font-family: Lena;
+    src: url(/assets/fonts/Lena.ttf);
 }
 
-.ingredients-section {
-  margin-bottom: 20px;
+@font-face {
+    font-family: Soyuz;
+    src: url(/assets/fonts/Soyuz\ Grotesk\ Bold.otf);
 }
 
-.ingredients-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+/* общие стили */
+:root {
+    --main-accent-color: #fec009;
+    --main-accent-color-hover: #e0a800;
+    --secondary-accent-color: #ffd760;
+    --secondary-accent-color: #ffc850;
+    --gray-text-color: #ccc;
+    --dark-gray-text-color: #333333;
 }
 
-.ingredient-item {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+
+.main-container {
+    max-width: 1325px;         
+    width: 90%;                 
+    margin: 0 auto;             
+    padding: 20px;                 
+    margin-top: 20px;           
+    background: white;         
+    
 }
+
+h2 {
+    font-family: "Manrope", sans-serif; 
+    font-size: 24px !important;   
+    font-weight: bold !important;                                   
+    color: var(--dark-gray-text-color);                    
+    letter-spacing: 0.5px;          
+}
+
+h3 {
+    font-family: "Jost", sans-serif; 
+    font-size: 18px !important;   
+    font-weight: bold;                                     
+    color: var(--dark-gray-text-color);                    
+    letter-spacing: 0.5px;          
+}
+
+h1 {
+    font-family: "Soyuz", sans-serif; 
+    font-size: 2.5rem;              
+    text-align: center;             
+    margin: 1.5rem 0;               
+    color: var(--dark-gray-text-color);                    
+    letter-spacing: 0.5px;  
+    margin-bottom: 50px !important;        
+}
+
+ .upload-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            height: 530px;
+            border-radius: 40px;
+            background-color: var(--gray-text-color);
+            color: var(--dark-gray-text-color);
+            font-family: "Rubik", sans-serif;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .upload-placeholder::before {
+            content: "";
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+
+.save-btn {
+    padding: 10px 20px;
+    border: 1px solid var(--main-accent-color);
+    border-radius: 20px;
+    background: var(--main-accent-color);
+    cursor: pointer;
+    font-size: 14px;
+    width: 200px;
+    color: var(--dark-gray-text-color);
+    transition: background 0.3s;
+    font-family: "Rubik";
+    font-weight: 500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .form-control {
   padding: 8px 12px;
   border: 1px solid #ced4da;
-  border-radius: 4px;
+  border-radius: 8px;
   flex-grow: 1;
 }
-
-.btn-add {
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  font-size: 18px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Контейнер для двухколоночного макета */
+.form-layout {
+    display: flex;
+    gap: 40px;
+    /* margin-bottom: 40px; */
 }
 
-.btn-remove {
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  font-size: 18px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Левая колонка (загрузка файла) */
+.upload-column {
+    flex: 1;
+    max-width: 400px;
+    max-height: 530px;
 }
 
-.btn-add:hover {
-  background-color: #218838;
+/* Правая колонка (форма) */
+.form-column {
+    flex: 2;
 }
 
-.btn-remove:hover {
-  background-color: #c82333;
+/* Стили для формы */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color: var(--dark-gray-text-color);
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--gray-text-color);
+    border-radius: 8px;
+    font-family: "Jost", sans-serif;
+    background-color: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--main-accent-color);
+    box-shadow: 0 0 0 2px rgba(254, 192, 9, 0.2);
+}
+
+/* Стили для нижней части (ингредиенты и инструкции) */
+.bottom-section {
+    margin-top: 40px;
+}
+
+.row-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+
+.row-group .row-item {
+    flex: 1;
+    min-width: 0; /* Это предотвращает "распухание" flex-элементов */
+} 
+
+/* Стиль для контейнера ингредиента */
+.product-form {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.product-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.product-form label h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-gray-text-color);
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+
+/* Стиль для select, аналогичный полям КБЖУ */
+.product-form select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--gray-text-color);
+    border-radius: 8px;
+    font-family: "Jost", sans-serif;
+    background-color: #fff;
+    margin-top: 8px; /* Отступ от заголовка */
+}
+
+.product-form select:focus {
+    outline: none;
+    border-color: var(--main-accent-color);
+    box-shadow: 0 0 0 2px rgba(254, 192, 9, 0.2);
+}
+
+
+.ingredients-section {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.ingredient-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.ingredient-row select {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: "Jost", sans-serif;
+    background-color: #fff;
+}
+
+.ingredient-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 18px;
+}
+
+.add-btn {
+    background-color: #fec009;
+    color: white;
+    border: none;
+}
+
+.add-btn:hover {
+    background-color: #e0a800;
+}
+
+.remove-btn {
+    background-color: #f8f8f8;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+
+.remove-btn:hover {
+    background-color: #ffebeb;
 }
