@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RecipeWebsiteBackend",
+    "\\RecipeWebsiteBackend\\bin",
+    "\\RecipeWebsiteBackend\\Controllers",
+    "\\RecipeWebsiteBackend\\Models",
+    "\\RecipeWebsiteBackend\\Models\\DTOs",
+    "\\RecipeWebsiteBackend\\Models\\DTOs\\Authentication",
+    "\\RecipeWebsiteBackend\\Models\\Entities"
+  ],
+  "SelectedNode": "\\RecipeWebsiteBackend\\bin",
+  "PreviewInSolutionExplorer": false
+}
