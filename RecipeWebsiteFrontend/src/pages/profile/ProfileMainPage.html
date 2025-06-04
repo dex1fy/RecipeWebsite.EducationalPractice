@@ -20,48 +20,38 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="/src/pages/HomePage.html">Home</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a
-                            class="nav-link active"
-                            aria-current="page"
-                            href="/src/pages/login/LoginPage.html"
-                            >Login</a
-                        >
-                    </div>
-                    <div class="navbar-nav">
-                        <a
-                            class="nav-link active"
-                            aria-current="page"
-                            href="/src/pages/registration/RegistrationPage.html"
-                            >Registration</a
-                        >
-                    </div>
-                    <div class="navbar-nav">
-                        <a
-                            class="nav-link active"
-                            aria-current="page"
-                            href="/src/pages/profile/ProfileMainPage.html"
-                            >Profile</a
-                        >
-                    </div>
-                </div>
+<!-- шапка сайта -->
+        <header class="header">
+        
+            <div class="header__container container">
+              
+                <a href="index.html" class="logo">
+                    <img
+                        class="logo__img"
+                        src="/assets/images/logo.png"
+                        alt="logo"
+                    />
+                    <span class="logo__text">Ам-Ням</span>
+                </a>
+
+               
+                <form class="search-form" role="search">
+                    <button class="search-form__btn">
+                        <img
+                            class="search-form__img"
+                            src="/assets/images/search-img.svg"
+                            alt=""
+                        />
+                    </button>
+                    <input
+                        class="search-form__field"
+                        type="text"
+                        placeholder="Поиск"
+                    />
+                </form>
+
             </div>
-        </nav>
+        </header>
 
         <div class="container-fluid">
             <div style="height: 20vh"></div>
@@ -73,7 +63,10 @@
                         style="width: 100px; height: 100px;"
                     />
                 </div>
-                <div class="row justify-content-center">
+
+                <!-- здесь нужно вывести имя и юзер -->
+
+                <div class="row justify-content-center" id="userName2">
                     <script type="text/javascript" src="profile_main.js" defer>
                         UsersData();
                     </script>

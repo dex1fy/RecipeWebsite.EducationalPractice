@@ -1,4 +1,4 @@
-﻿namespace RecipeWebsiteBackend.Tests
+namespace RecipeWebsiteBackend.Tests
 {
     public class UnitTest1
     {

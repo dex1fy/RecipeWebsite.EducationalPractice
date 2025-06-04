@@ -4,4 +4,8 @@
 *.suo
 *.user
 *.backup
-*.cache
+*.cache**/.vs/
+**/obj/
+**/bin/
+**/obj/
+**/bin/
