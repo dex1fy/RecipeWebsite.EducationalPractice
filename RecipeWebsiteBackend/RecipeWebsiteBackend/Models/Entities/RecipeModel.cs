@@ -1,5 +1,5 @@
-using Supabase.Postgrest.Models;
 using Supabase.Postgrest.Attributes;
+using Supabase.Postgrest.Models;
 
 namespace RecipeWebsiteBackend.Models.Entities
 {
@@ -28,7 +28,7 @@ namespace RecipeWebsiteBackend.Models.Entities
         [Column("cat_cuisine_key")]
         public Guid CatCuisineKey { get; set; } // —сылаетс€ на CategoryDishCuisineModel.id
 
-        [Column("cat_menu_key")] 
+        [Column("cat_menu_key")]
         public Guid CatMenuKey { get; set; } // —сылаетс€ на CategoryDishMenuModel.id
 
         [Column("short_description")]
@@ -45,6 +45,6 @@ namespace RecipeWebsiteBackend.Models.Entities
 
         [Column("calories")]
         public int Calories { get; set; }
-        
+
     }
 }

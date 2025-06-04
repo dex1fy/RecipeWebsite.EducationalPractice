@@ -5,7 +5,7 @@ using RecipeWebsiteBackend.Services;
 
 namespace RecipeWebsiteBackend.Controllers
 {
-   
+
     [ApiController]
     [Route("api/[controller]")]
     public class CategoriesController : ControllerBase
@@ -28,9 +28,9 @@ namespace RecipeWebsiteBackend.Controllers
                 .From<CategoryDish>().Get();
 
             var Data = response.Models;
-             
+
             return Ok(response.Content);
-          
+
         }
     }
 }

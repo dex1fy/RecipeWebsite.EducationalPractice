@@ -2,7 +2,6 @@
 using RecipeWebsiteBackend.Models.DTOs.Recipe;
 using RecipeWebsiteBackend.Models.Entities;
 using RecipeWebsiteBackend.Services;
-using Supabase.Interfaces;
 using static Supabase.Postgrest.Constants;
 
 [ApiController]
@@ -16,39 +15,39 @@ public class RecipeController : ControllerBase
         _supabaseService = supabaseService;
     }
 
-   
+
     // Новый метод для получения конкретного рецепта
     [HttpGet("{id}")]
     public async Task<IActionResult> GetRecipeById(string id)
     {
-        
-            var supabaseClient = await _supabaseService.InitSupabase();
 
-            // 1. Получаем основной рецепт
-            var recipeResponse = await supabaseClient
-                .From<Recipe>()
-                .Select("*")
-                .Filter("id", Operator.Equals, id)
-                .Single();
+        var supabaseClient = await _supabaseService.InitSupabase();
 
-            if (recipeResponse == null)
-                return NotFound("Рецепт не найден");
+        // 1. Получаем основной рецепт
+        var recipeResponse = await supabaseClient
+            .From<Recipe>()
+            .Select("*")
+            .Filter("id", Operator.Equals, id)
+            .Single();
 
-            var dishProduct = await supabaseClient
-                .From<DishProductModel>()
-                .Where(x => x.DishId == recipeResponse.Id)
-                .Get();
+        if (recipeResponse == null)
+            return NotFound("Рецепт не найден");
 
-            var productIds = dishProduct.Models.Select(dp => dp.ProductId).ToList();
+        var dishProduct = await supabaseClient
+            .From<DishProductModel>()
+            .Where(x => x.DishId == recipeResponse.Id)
+            .Get();
 
-             // 2.Получаем связанные ингредиенты
-                var allProductsResponse = await supabaseClient
-                    .From<ProductModel>()
-                    .Get();
+        var productIds = dishProduct.Models.Select(dp => dp.ProductId).ToList();
 
-                var ingredientsList = allProductsResponse.Models
-                    .Where(p => productIds.Contains(p.Id))
-                    .ToList();
+        // 2.Получаем связанные ингредиенты
+        var allProductsResponse = await supabaseClient
+            .From<ProductModel>()
+            .Get();
+
+        var ingredientsList = allProductsResponse.Models
+            .Where(p => productIds.Contains(p.Id))
+            .ToList();
 
         var ingredientDtos = ingredientsList.Select(p => new IngredientDto
         {
@@ -57,19 +56,19 @@ public class RecipeController : ControllerBase
         }).ToList();
         // 3. Формируем DTO с полной информацией
         var recipeDetails = new RecipeDetailsDto
-            {
-                Name = recipeResponse.Name,
-                Steps = recipeResponse.Steps,
-                Ingredients = ingredientDtos,
-                CookingTime = recipeResponse.CookingTime,
-                Calories = recipeResponse.Calories,
-                Fats = recipeResponse.Fats,
-                Proteins = recipeResponse.Squirrels,
-                ShortDescription = recipeResponse.ShortDescription,
-                Carbohydrates = recipeResponse.Carbohydrates,
+        {
+            Name = recipeResponse.Name,
+            Steps = recipeResponse.Steps,
+            Ingredients = ingredientDtos,
+            CookingTime = recipeResponse.CookingTime,
+            Calories = recipeResponse.Calories,
+            Fats = recipeResponse.Fats,
+            Proteins = recipeResponse.Squirrels,
+            ShortDescription = recipeResponse.ShortDescription,
+            Carbohydrates = recipeResponse.Carbohydrates,
         };
 
-            return Ok(recipeDetails);
-        }
-        
+        return Ok(recipeDetails);
     }
+
+}

@@ -1,9 +1,6 @@
 
 using Microsoft.IdentityModel.Tokens;
-using RecipeWebsiteBackend.Models;
 using RecipeWebsiteBackend.Services;
-using System.Diagnostics;
-using System.Security.Claims;
 using System.Text;
 
 namespace RecipeWebsiteBackend
@@ -18,7 +15,7 @@ namespace RecipeWebsiteBackend
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            
+
             builder.Services.AddSwaggerGen();
             var bytes = Encoding.UTF8.GetBytes(builder.Configuration["Authentication:JwtSecret"]);
             builder.Services.AddAuthentication("Bearer")
@@ -37,7 +34,7 @@ namespace RecipeWebsiteBackend
                         ValidateIssuer = true,
                         ValidateAudience = false,
                         ValidateLifetime = true,
-                  
+
                     };
                 });
 

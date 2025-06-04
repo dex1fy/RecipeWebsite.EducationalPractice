@@ -1,16 +1,14 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using RecipeWebsiteBackend.Models.DTOs.Authentication;
 using RecipeWebsiteBackend.Models.Entities;
 using RecipeWebsiteBackend.Services;
 using System.Security.Claims;
-using Supabase.Gotrue;
-using Supabase.Postgrest;
-using RecipeWebsiteBackend.Models.DTOs.Authentication;
 
 namespace RecipeWebsiteBackend.Controllers
 {
     [ApiController]
-    
+
     [Route("api/[controller]")]
     public class ProfileController : ControllerBase
     {

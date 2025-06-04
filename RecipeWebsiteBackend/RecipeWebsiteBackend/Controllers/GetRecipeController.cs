@@ -2,7 +2,6 @@
 using RecipeWebsiteBackend.Models.DTOs.Recipe;
 using RecipeWebsiteBackend.Models.Entities;
 using RecipeWebsiteBackend.Services;
-using Supabase.Interfaces;
 using static Supabase.Postgrest.Constants;
 
 [ApiController]

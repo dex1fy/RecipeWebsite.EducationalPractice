@@ -1,12 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using RecipeWebsiteBackend.Models.DTOs.Authentication;
 using RecipeWebsiteBackend.Models.DTOs.Registration;
 using RecipeWebsiteBackend.Models.Entities;
 using RecipeWebsiteBackend.Services;
 using System.Security.Claims;
-using Supabase.Gotrue;
-using Supabase.Postgrest;
-using RecipeWebsiteBackend.Models.DTOs.Authentication;
 
 namespace RecipeWebsiteBackend.Controllers
 {
@@ -50,7 +48,7 @@ namespace RecipeWebsiteBackend.Controllers
                 .Where(x => x.Id == userGuid)
                 .Single();
 
-            if (response == null) 
+            if (response == null)
             {
                 return NotFound("User not found");
             }
@@ -76,24 +74,24 @@ namespace RecipeWebsiteBackend.Controllers
             var supabaseClient = await _supabaseService.InitSupabase();
 
             // проверяет, соответствие модели, указанным правилам в DTO (посмотрите модель RegisterRequest)
-            if(!ModelState.IsValid) 
+            if (!ModelState.IsValid)
                 return BadRequest(new ProblemDetails { Title = "the email or password is incorrect" }); // если данные невалидны (почта, пароль), то возвращаем 400
 
             // проверка соответствия пароля
             if (request.Password != request.ConfirmPassword)
-                return BadRequest(new ProblemDetails{ Title = "passwords don't match" });
+                return BadRequest(new ProblemDetails { Title = "passwords don't match" });
 
             //проверка на существующего пользователя
             var existUser = await supabaseClient.From<UserModel>().Where(u => u.UserName == request.UserName || u.UserEmail == request.Email).Single();
-          
+
             if (existUser != null)
                 return BadRequest(new ProblemDetails { Title = "the user with this username already exists" });
 
-            
+
 
             // регистрация
             var register = await supabaseClient.Auth.SignUp(
-                email: request.Email, 
+                email: request.Email,
                 password: request.Password
             );
             if (register != null)

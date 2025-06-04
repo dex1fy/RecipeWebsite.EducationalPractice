@@ -1,6 +1,4 @@
-﻿using Supabase.Postgrest.Attributes;
-
-namespace RecipeWebsiteBackend.Models.DTOs.Recipe
+﻿namespace RecipeWebsiteBackend.Models.DTOs.Recipe
 {
     public class RecipeRequest
     {

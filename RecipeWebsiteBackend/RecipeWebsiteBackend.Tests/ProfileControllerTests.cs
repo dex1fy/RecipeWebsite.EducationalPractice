@@ -1,21 +1,4 @@
-using Xunit;
-using Moq;
-using RecipeWebsiteBackend.Controllers;
-using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using Microsoft.AspNetCore.Http;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
-using Supabase;
-using Postgrest.Responses;
-using RecipeWebsiteBackend.Models; // Замените на актуальный namespace
-using System.Linq;
-using static Moq.It;
-using RecipeWebsiteBackend.Models.DTOs.Authentication;
-using RecipeWebsiteBackend.Models.Entities;
-using RecipeWebsiteBackend.Services;
-using Supabase.Postgrest;
 
 public class ProfileControllerTests
 {

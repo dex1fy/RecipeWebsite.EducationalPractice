@@ -1,6 +1,4 @@
-﻿using RecipeWebsiteBackend.Models.Entities;
-
-namespace RecipeWebsiteBackend.Services
+﻿namespace RecipeWebsiteBackend.Services
 {
     /// <summary>
     /// Сервис (класс) для подключения к базе данных supabase
@@ -45,7 +43,7 @@ namespace RecipeWebsiteBackend.Services
             // возвращается экземпляр Supabase.Client
             return _supabaseClient;
         }
-    
- 
+
+
     }
 }

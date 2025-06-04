@@ -1,11 +1,9 @@
 ﻿// Controllers/RecipesController.cs
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Win32;
 using RecipeWebsiteBackend.Models.DTOs.Recipe;
 using RecipeWebsiteBackend.Models.Entities;
 using RecipeWebsiteBackend.Services;
-using System.Diagnostics;
 
 /// <summary>
 /// КОНТРОЛЛЕР ДЛЯ РАБОТЫ С РЕЦЕПТАМИ
