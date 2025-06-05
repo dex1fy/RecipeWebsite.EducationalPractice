@@ -3,7 +3,7 @@
     /// <summary>
     /// Сервис (класс) для подключения к базе данных supabase
     /// </summary>
-    public class SupabaseService
+    public class SupabaseService : ISupabaseService
     {
         /// <summary>
         /// объявление приватных переменных класса
