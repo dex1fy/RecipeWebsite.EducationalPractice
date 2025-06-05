@@ -1,11 +1,6 @@
 async function renderRecipe() {
     let token = localStorage.getItem("access_token");
 
-    // const payload = JSON.parse(atob(token.split('.')[1]));
-
-    // const userId = payload.sub;
-
-    // console.log(userId);
 
     let params = new URLSearchParams(window.location.search);
 
@@ -32,26 +27,29 @@ async function renderRecipe() {
 
 
 
-    ingredients.innerHTML = "";
+    // ingredients.innerHTML = "";
     if (response.ok) {
         let data = await response.json();
-        console.log(data);
+        
+        // Основная информация
         name.innerHTML = data.name;
-        steps.innerHTML = data.steps;
-        data.ingredients.forEach((ingredient) => {
-            console.log(ingredient.productName);
-            ingredients.innerHTML += `
-                <div class="ingredient-item">
-                    ${ingredient.productName}
-                </div>
-                `;
-        });
-        Calories.innerHTML = data.calories;
-        CookingTime.innerHTML = data.cookingTime;
-        Fats.innerHTML = data.fats;
-        Proteins.innerHTML = data.proteins;
         ShortDescription.innerHTML = data.shortDescription;
-        Carbohydrates.innerHTML = data.carbohydrates;
+        
+        // Форматирование времени
+        CookingTime.innerHTML = data.cookingTime ? `${data.cookingTime}` : '—';
+        
+        // Пищевая ценность
+        Calories.innerHTML = data.calories ? `${data.calories} ккал` : '—';
+        Proteins.innerHTML = data.proteins ? `${data.proteins} г` : '—';
+        Fats.innerHTML = data.fats ? `${data.fats} г` : '—';
+        Carbohydrates.innerHTML = data.carbohydrates ? `${data.carbohydrates} г` : '—';
+        
+        // Ингредиенты и шаги
+        ingredients.innerHTML = data.ingredients.map(ing => 
+            `<div class="ingredient-item">${ing.productName}</div>`
+        ).join('');
+        
+        steps.innerHTML = data.steps.replace(/\n/g, '<br>');
     }
 }
 
