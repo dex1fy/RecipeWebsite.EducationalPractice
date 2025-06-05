@@ -1,5 +1,3 @@
-// NOTE : перенес скрипты в отдельный файл
-
 async function CategoryData() {
     let token = localStorage.getItem("access_token");
 
@@ -37,7 +35,7 @@ async function CuisineData() {
 
     try {
         let response = await fetch(
-            "http://localhost:5232/api/CategoriesDishCuisine",
+            "http://localhost:5232/api/CategoriesDishCuisine/Rewew",
             {
                 headers: {
                     "Content-Type": "application/json",

@@ -18,7 +18,7 @@ namespace RecipeWebsiteBackend.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("Rewew")]
         public async Task<IActionResult> GetCuisine()
         {
             var supabaseClient = await _supabaseService.InitSupabase();
