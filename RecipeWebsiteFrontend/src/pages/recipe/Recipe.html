@@ -17,6 +17,22 @@
         <!-- ПОДКЛЮЧЕНИЕ ТЕСТОВОГО ФАЙЛА -->
         <script type="module" src="/src/pages/recipe/Recipe.js" defer></script>
         <script type="module" src="/testCheck.js" defer></script>
+
+        <style>
+.pdf-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.pdf-button:hover {
+    background-color: #0056b3;
+}
+</style>
     </head>
 
     <body>
@@ -120,6 +136,10 @@
     
     <h3 class="section-title">Способ приготовления</h3>
     <div id="steps" class="recipe-steps"></div>
+<button onclick="downloadPDF()" class="basic-btn" style="margin-top: 20px;">Скачать в PDF</button>
+
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="DownloadRecipe.js"></script>
     </body>
 </html>
