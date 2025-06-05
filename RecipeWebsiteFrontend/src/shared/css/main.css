@@ -249,6 +249,8 @@ h1 {
     align-items: center;
     color: #666;
     font-size: 0.9rem;
+    justify-content: space-between;
+
 }
 
 .recipe-time svg {

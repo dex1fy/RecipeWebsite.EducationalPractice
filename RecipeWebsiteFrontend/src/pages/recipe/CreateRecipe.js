@@ -35,7 +35,7 @@ async function CuisineData() {
 
     try {
         let response = await fetch(
-            "http://localhost:5232/api/CategoriesDishCuisine/Rewew",
+            "http://localhost:5232/api/CategoriesDishCuisine",
             {
                 headers: {
                     "Content-Type": "application/json",

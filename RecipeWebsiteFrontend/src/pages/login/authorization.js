@@ -50,6 +50,27 @@ async function getProtectedData() {
     );
     console.warn(token);
 
+// Если получили 401 - пробуем обновить токен
+    if (response.status === 401) {
+        const newToken = await refreshAccessToken();
+        if (newToken) {
+            // Повторяем запрос с новым токеном
+            response = await fetch(
+                "http://localhost:5232/api/Authentication/login",
+                {
+                    headers: {
+                        "Content-Type": "application/json",
+                        Authorization: "Bearer " + newToken,
+                    },
+                }
+            );
+        } else {
+            // Не удалось обновить токен - перенаправляем на страницу входа
+            window.location.href = "/src/pages/login/LoginPage.html";
+            return;
+        }
+    }
+
     let data;
     if (response.ok) {
         data = await response.json();
